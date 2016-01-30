@@ -1,7 +1,0 @@
-To go back to original HEAD
-
-git branch temp
-git checkout temp
-
-git checkout master
-git branch -d temp
