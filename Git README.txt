@@ -74,3 +74,10 @@ git checkout @new_name : to switch to another branch
 git checkout -b @new_name : checkout & create new branch at the same time
 git branch -d @new_name : delete that branch
 git merge --abort : exit merging process
+
+Push repo to github
+git remote : to see existing remotes
+git remote add origin https://github.com/ggitid/test.git 
+	: create a remote called "origin" to be push to github
+git remote -v : to look at the repository status ?
+git push origin master : push the repo to the "origin" github repo
